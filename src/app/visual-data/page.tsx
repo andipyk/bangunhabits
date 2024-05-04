@@ -1,8 +1,13 @@
-import React from 'react'
+import { BarChartExampleWithCustomTooltip } from "./custom-bar"
 
 function VisualData() {
   return (
-    <div>Visual Data</div>
+    <>
+        <div>Visual Data</div>
+    <div>
+      < BarChartExampleWithCustomTooltip />
+    </div>
+    </>
   )
 }
 
